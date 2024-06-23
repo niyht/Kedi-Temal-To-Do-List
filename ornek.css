@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    background-image: url("https://i.pinimg.com/originals/6b/7f/6b/6b7f6b118ebc01f6e8d8b6e6027398af.png");
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#anadiv {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #000000;
+    font-size: 19px;
+}
+
+button {
+    background: #B2E9E6;
+    color: #000000;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buton1:hover {
+    background: #FFBBBA;
+    color: #000000;
+}
+
+p {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.tamamlamaButonu {
+    background-color: green;
+    color: white;
+    position: absolute;
+    right: 70px;
+}
+.ogeEkle {
+    background-color: green;
+    color: #fff;
+}
+
+.silmeButonu {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+.tarihDegeri {
+    position: absolute;
+    right: 150px;
+    border-width: 0px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.saatEkle {
+    position: absolute;
+    right: 270px;
+    border-width: 0px;
+    background-color: rgba(240, 248, 255, 0);
+}
